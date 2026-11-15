@@ -1,0 +1,26 @@
+{
+  "source": "D:\\GNNAttackReaserch\\abp_learn_20261112",
+  "files": {
+    "src/abp_learning.py": {
+      "source": "D:\\GNNAttackReaserch\\abp_learn_20261112\\src\\abp_learning.py",
+      "source_sha256": "5ebf7c5f4c2008d4e21156f41ded0180b10ed68cbc6dbf7086cffadc873bfbdd"
+    },
+    "src/abp_dual.py": {
+      "source": "D:\\GNNAttackReaserch\\abp_learn_20261112\\src\\abp_dual.py",
+      "source_sha256": "dd998cf695611e7ed1aca78e87b43c20e9a28b464460b09e1b2ee5c354fefd7c"
+    },
+    "src/abp_assisted.py": {
+      "source": "D:\\GNNAttackReaserch\\abp_learn_20261112\\src\\abp_assisted.py",
+      "source_sha256": "5841e66f6d8c4dadb6b7e10a65cbd2952ae7eb4cb4f75b64efd1be4429c77020"
+    },
+    "src/branch_review.py": {
+      "source": "D:\\GNNAttackReaserch\\abp_learn_20261112\\src\\branch_review.py",
+      "source_sha256": "397f3c97729dbfaad7127327b01ecb0830ec209a52b0234204d1a65148497df9"
+    },
+    "src/evaluation.py": {
+      "source": "D:\\GNNAttackReaserch\\abp_learn_20261112\\src\\evaluation.py",
+      "source_sha256": "5935ad50bfa8581fa58b418aee2439523ba4dbb3ff99c6f419769a8dc7d9264c"
+    }
+  },
+  "policy": "只移植优化方法及评估扩展，不覆盖新预算、作者基线、受控参数和环境锁文件"
+}

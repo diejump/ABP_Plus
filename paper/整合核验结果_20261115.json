@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-15",
+  "new_project": "D:\\GNNAttackReaserch\\abp_integrated_20261115",
+  "copied_files": 1999,
+  "copied_bytes": 3801387587,
+  "original_project_status": "unchanged",
+  "source_vendor_files_verified": 244,
+  "unit_tests_passed": 32,
+  "reload_checks": {
+    "integration_check_20261115": {
+      "status": "passed",
+      "verified_runs": 8
+    },
+    "integration_default_recovery_20261115": {
+      "status": "passed",
+      "verified_runs": 1
+    }
+  },
+  "default_recovery_follows_epochs": true,
+  "core_budget_and_dependency_files_preserved": true,
+  "scope": "真实Cora两轮接口与重载检查，不是新的性能实验"
+}

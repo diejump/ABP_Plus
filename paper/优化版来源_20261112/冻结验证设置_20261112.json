@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-12",
+  "protocol": "abp_learning_20261112_v1",
+  "development_data": "Cora/UGBA/seed10既有固定样本",
+  "confirmation_seeds": [10, 20, 30],
+  "models": ["GCN", "GAT", "GraphSAGE"],
+  "methods": ["none", "abp", "abp_dual"],
+  "minimum_branch_nodes": 2,
+  "positive_training_epochs": 400,
+  "recovery_epochs": 400,
+  "negative_weight": 3.0,
+  "checkpoint_selection": "复核模型恢复阶段只用验证正确率，平局时使用验证NLL",
+  "desired_ASR": 0.01,
+  "near_baseline_CA_definition": "相同种子和骨架，CA下降不超过2个百分点",
+  "guard_metric": "同时报告真实目标类节点在注入前后的召回率；不把目标类受损隐藏在总体CA中",
+  "commitment": "种子20和30确认结果只报告，不据其测试指标重新选择本轮超参数"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-11",
+  "protocol": "author_original_20261111",
+  "sources": {
+    "RIGBD": {
+      "commit": "32415022d1becebd76296b0abc1b63853093697b",
+      "git_tree_url": "https://api.github.com/repos/zzwjames/RIGBD/git/trees/32415022d1becebd76296b0abc1b63853093697b"
+    },
+    "LoSplit": {
+      "commit": "171874c7e1dd4db4286ad5ab3423cd23871bc98e",
+      "git_tree_url": "https://api.github.com/repos/zyx924768045/LoSplit/git/trees/171874c7e1dd4db4286ad5ab3423cd23871bc98e"
+    },
+    "DShield": {
+      "commit": "a1fab6a0ce52ea0c99ae5591a930a11e2da611a1",
+      "git_tree_url": "https://api.github.com/repos/csyuhao/DShield-Official/git/trees/a1fab6a0ce52ea0c99ae5591a930a11e2da611a1"
+    },
+    "MAD": {
+      "commit": "f47cef85ecc70e1946a3da79c3e5fb37723594fb",
+      "git_tree_url": "https://api.github.com/repos/zhaorong229-art/MAD/git/trees/f47cef85ecc70e1946a3da79c3e5fb37723594fb"
+    }
+  },
+  "file_manifest": "author_source_manifest.json",
+  "original_files_verified": 244,
+  "rule": "作者文件保持原样；固定样本后的入口片段与模型函数复用"
+}

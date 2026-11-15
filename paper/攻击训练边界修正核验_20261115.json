@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-15",
+  "project": "D:\\GNNAttackReaserch\\abp_integrated_20261115",
+  "unit_tests_passed": 38,
+  "attack_checks": [
+    {
+      "attack": "GTA",
+      "status": "passed",
+      "training_graph_nodes": 2167,
+      "labeled_train_nodes": 541,
+      "test_nodes": 541,
+      "requested_groups": 65,
+      "actual_groups": 54,
+      "test_features_or_labels_in_training_input": false,
+      "model_reload": "passed"
+    },
+    {
+      "attack": "UGBA",
+      "status": "passed",
+      "training_graph_nodes": 2167,
+      "labeled_train_nodes": 541,
+      "test_nodes": 541,
+      "requested_groups": 65,
+      "actual_groups": 54,
+      "test_features_or_labels_in_training_input": false,
+      "model_reload": "passed"
+    },
+    {
+      "attack": "DPGBA",
+      "status": "passed",
+      "training_graph_nodes": 2167,
+      "labeled_train_nodes": 541,
+      "test_nodes": 541,
+      "requested_groups": 65,
+      "actual_groups": 54,
+      "test_features_or_labels_in_training_input": false,
+      "model_reload": "passed"
+    }
+  ],
+  "defense_checkpoint_reload_passed": 2,
+  "author_source_files_verified": 244,
+  "original_abp_code_and_tests_unchanged": 34,
+  "scope": "Cora短轮次实现验证，不报告性能结论",
+  "budget_definition": "floor(非测试训练图节点数*rate/100)，先选后滤，不补选",
+  "normalization": "所有拟合统计仅来自训练图",
+  "training_interface": "compact_training_graph_only_v1"
+}
